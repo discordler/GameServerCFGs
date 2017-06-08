@@ -48,7 +48,7 @@
 // Weight (1->1000)
 // Selection is weighted random (higher weights increase selection chance)
 
-mp_dome,FFA_default,1
+*,FFA_default,1
 *,GG_default,1
 *,INF_default,1
 *,JUG_default,1
