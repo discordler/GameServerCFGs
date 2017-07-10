@@ -2,7 +2,7 @@
 ///////////Modern Warfare 3 dedicated server default playlist//////////////
 ///////////////////////////////////////////////////////////////////////////
 
-//format is
+//format is 
 //<mapname>, <dsr filename>, <weight>
 
 //<mapname>
@@ -16,7 +16,7 @@
 //mp_exchange
 //mp_hardhat
 //mp_interchange
-//mp_labmeth
+//mp_lambeth
 //mp_mogadishu
 //mp_paris
 //mp_plaza2
@@ -29,11 +29,11 @@
 //dsr filename
 //name of recipe file without the dsr extension
 //included in this package are the following recipe defaults:
-//TDM_default    (Team Deathmatch)
-//DOM_default    (Domination)
-//CTF_default    (Capture The Flag)
+//TDM_default     (Team Deathmatch)
+//DOM_default     (Domination)
+//CTF_default     (Capture The Flag)
 //DZ_default      (Drop Zone)
-//FFA_default    (Free For All)
+//FFA_default     (Free For All)
 //GG_default    (Gun Game)
 //HQ_default    (Headquarters)
 //INF_default    (Infected)
@@ -48,9 +48,10 @@
 // Weight (1->1000)
 // Selection is weighted random (higher weights increase selection chance)
 
-*,FFA_default,1
+*,TDM_default,1
+*,FFA_default,3
+*,DOM_default,3
 *,GG_default,1
-*,INF_default,1
-*,JUG_default,1
 *,OIC_default,1
-*,SD_default,3
+*,INF_default,1
+*,DZ_default,1
