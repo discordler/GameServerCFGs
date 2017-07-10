@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	
+<settings>	
+	<!-- General settings section -->
+	
+	
+	<!-- **** Voting **** -->
+	<set name="voting_enabled">true</set>		<!-- Whether to enable voting. Values: true/false. If disable this, voting will not be available to anyone regardless of the settings in the commands file. -->
+	<set name="vote_time">40</set>				<!-- Vote time, in seconds. -->
+	<set name="votekick_bantime">10800</set>	<!-- The time a votekicked player will be banned for, in seconds. Set to 0 to disable (kick only) -->
+	<set name="vote_allowed_maps">dome,hardhat,outpost,gulch</set>		<!-- A "whitelist" of maps for !votemap (separate them with commas). Only those will be allowed. If you set this, do not set vote_blocked_maps below. -->
+	<!-- Example: <set name="vote_allowed_maps">dome,hardhat,outpost,gulch</set> -->
+	<set name="vote_blocked_maps"></set>		<!-- A "blacklist" of maps for !votemap (separate them with commas). These maps will not be allowed. If you set this, do not set vote_allowed_maps above. -->
+	<!-- Example: <set name="vote_blocked_maps">decomission,liberation,lockdown</set> -->
+	
+	<!-- If you want to allow all maps, leave both the above settings empty. If you set both, all maps will be allowed as well. -->
+	 
+	 
+	<!-- **** Warnings **** -->
+	<set name="warn_default_reason">Behave yourself.</set>		<!-- If the warn reason is not specified, this will be used. -->
+	<set name="warn_max_warnings">2</set>						<!-- The maximum number of warnings a player can be given before they're tempbanned. -->
+	<set name="warn_bantime">7200</set>							<!-- The duration of the ban issued if max_warnings is exceeded (see above). Set to 0 to disable (kick only). --> 
+	
+	
+	<!-- ** Spambot detection **** -->
+	<!-- SATm will automatically detect and auto-tempban players using a spambot. However, you can disable this feature. -->
+	<set name="spambot_detection_enabled">true</set>		<!-- Whether to enable spambot detection. -->
+	<set name="spambot_bantime">10800</set>				<!-- The ban duration, in seconds. -->
+	
+	
+	<!-- **** Bans **** -->
+	<set name="ban_default_reason">Inappropriate behavior</set>		<!-- If the ban reason is not specified, this will be used. -->
+	<set name="ban_default_duration">7200</set>						<!-- If the ban duration is not specified, this will be used. -->
+	
+	
+	<!-- **** Geolocation **** -->
+	<set name="geolocation_enabled">true</set>		<!-- Whether to enable the geolocation service. Requires an Internet connection, so you may want to disable this for LAN parties. -->
+	
+	
+	<!-- **** Ping censoring **** -->
+	<set name="pingcensor_enabled">true</set>					<!-- Whether to enable the ping censor module. -->
+	<set name="pingcensor_maxping">300</set>					<!-- The maximum allowed ping. -->
+	<set name="pingcensor_maxwarns">2</set>		            <!-- The number of warnings a player will receive before getting kicked for high ping. -->
+	
+	
+	<!-- **** Timed messages **** -->
+	<set name="tmes_enabled">true</set>					<!-- Whether to enable the timed messages module. -->
+	<set name="tmes_interval">180</set>					<!-- Interval for the timed messages, in seconds. -->
+	<set name="tmes_file">Timed_messages.txt</set>		<!-- The timed messages file in your SATm directory. -->
+	
+	
+	<!-- **** Map rotation **** -->
+	<set name="maprot_enabled">true</set>					<!-- Whether to enable the map rotation module. -->
+	<set name="maprot_file">Rotation.xml</set>		    <!-- The file containing the settings for the map rotation management module. Set the above to true then start your server and then SATm will create a default file. -->
+	
+	
+	<!-- **** Spree messages **** -->
+	<set name="spree_enabled">true</set>					<!-- Whether to enable the killstreak messages module. -->
+	<set name="spree_file">Spree Messages.xml</set>		            <!-- The file containing your killstreak messages. -->
+	
+   
+	<!-- **** Configuration files **** -->
+	<set name="lang">Lang.xml</set>		        <!-- The file containing basic messages the SATm will use to "talk" to players. -->
+	<set name="rules">Rules.xml</set>			    <!-- The file containing server rules. -->
+	<set name="groups">Groups.xml</set>			<!-- This file defines the groups SATm will use. -->
+	<set name="commands">Commands.xml</set>		<!-- Defines the minimum privileges level required to use each command, as well as the shortcuts (!kick - !k) -->
+	
+	
+    <!-- **** Miscellaneous **** -->
+    <set name="sysprefix"></set>					            <!-- If you want a prefix prepened to all system messages (aka botname), enter it here. -->
+    <set name="clansite">https://discordler.github.io/</set>						<!-- Enter your clan website link here. Will be used with kick/ban messages etc. -->
+    <set name="ipban_enabled">true</set>						
+    <!-- By default, SATm will ban players by IP (amongst other "identifiers").
+    This can, however, lead to banning innocent players who "inherited" the banned IP if it was dynamic.
+    If you're getting complaints from players who shouldn't be banned, you may consider disabling this feature (the banning system is fairly secure without it as well). -->
+    <set name="guidban_enabled">true</set>						<!-- Same as above, but for GUID. -->
+    <set name="RuleListDelay">1600</set>						<!-- Delay (in milliseconds) before displaying each rule when !rules is called. -->
+    <set name="KillCommandRankBased">true</set>						<!-- Stops players from using !kill to kill players with a higher rank than them. -->
+    <set name="kickthisguyhax">true</set>						<!-- Automagically kicks players with the name 'thisguyhax.'. -->
+	 
+    <set name="publiccmd_min_rank">60</set>						<!-- Minimum rank required to use the "public commands" (see manual). -->
+    <set name="admin_min_rank">20</set>						    <!-- The minimum rank to be considered "admin" rank (by the !admins command). -->
+    <set name="xlrstats_enabled">true</set>						<!-- Whether to enable the XLRStats module. -->
+    <set name="12hour_time">false</set>						    <!-- By default, SATm uses the 24 hour time system. If you want the 12 hour clock to be used, set this to true. -->
+    <set name="private_welcome_enabled">true</set>						    <!-- Whether to enable the private welcome message displayed upon connection. -->
+    <set name="public_welcome_enabled">true</set>						    <!-- Whether to enable the public welcome message displayed upon connection. -->
+    <set name="knife_permanently_disabled">false</set>						    <!-- Whether to automatically disable knife. -->
+	 
+    <set name="start_jump_value">120</set>						    <!-- If set, the jump value will be auto-set to this value. -->
+    <set name="start_speed_value"></set>						    <!-- If set, the speed value will be auto-set to this value. -->
+    <set name="start_gravity_value"></set>						    <!-- If set, the gravity value will be auto-set to this value. -->
+    
+    <set name="floating_ad">Discordler MW3 - discordler.github.io</set>						        <!-- A floating ad for your server (displayed at the bottom) Leave blank to disable. -->
+	 
+    <set name="axis_name">Hyper Hyper</set>						        <!-- Your custom name for the axis team (Spetsnaz, Inner Circle etc). Leave blank to use defaults. -->
+    <set name="axis_icon">Hopper Hopper</set>						        <!-- Your custom icon for the axis team (Spetsnaz, Inner Circle etc). Leave blank to use defaults. There's no error checking performed. -->
+    
+    <set name="allies_name"></set>						    <!-- Your custom name for the allies team (SAS, Delta etc). Leave blank to use defaults. -->
+    <set name="allies_icon"></set>						    <!-- Your custom icon for the allies team (SAS, Delta etc). Leave blank to use defaults. There's no error checking performed. -->
+	 
+    <set name="admin_auth_enabled">false</set>						    <!-- If enabled, all players will have to log in using their group password before using commands. -->
+	 
+	 
+	<!-- **** Team balance **** -->
+	<set name="teambalance_enabled">true</set>	            	<!-- Whether to enable the Team Balance module. -->
+	<set name="teambalance_interval">40</set>						<!-- Team Balance interval, in seconds. -->
+	
+	
+	<!-- Don't change these unless you know what you're doing (and you've read the manual ;)) -->
+	<!-- **** Database files **** -->
+	<set name="clients">clients.dat</set>		<!-- The clients database. -->
+	<set name="bans">bans.dat</set>		    <!-- The bans database. -->
+	<set name="xlr">xlr.dat</set>				<!-- XLRStats database. -->
+	
+</settings>
+	

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The server rules. SATm will auto-prepend these with Rule#<rule number>, so don't put that in manually. -->
+
+<rules>
+	<rule>Do not ^1cheat.</rule>
+	<rule>Respect our ^2admins.</rule>
+	<rule>No ^1bad language.</rule>
+	<rule>Do not insult other players.</rule>
+</rules>

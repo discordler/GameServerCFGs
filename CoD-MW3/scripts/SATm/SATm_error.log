@@ -1,0 +1,79 @@
+--------- Error: ---------
+
+08:57:41.46 Monday, June 26, 2017
+
+Failed to check version: Thread was being aborted  at (wrapper managed-to-native) System.Net.Sockets.Socket:Receive_internal (intptr,byte[],int,int,System.Net.Sockets.SocketFlags,int&)
+  at System.Net.Sockets.Socket.Receive_nochecks (System.Byte[] buf, Int32 offset, Int32 size, SocketFlags flags, System.Net.Sockets.SocketError& error) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.柜蘡洞�궇속师 (System.String 娇殡툝䘱䑸䨠貁, Int32 㯥╈ₘ�ꟊ✞嗫, System.String ᕄ쭛ၤ汒디⸍忲ﯺ, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.蕯ⵃ읡蚣닏დ䂤 (System.String ퟡꃎ㨌苦괞ᡠ睋鸫, Int32 蕸峺ඇ䑋ᚲ鐪ꚋ鯢, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.GetLatestSATmVersion () [0x00000] in <filename unknown>:0 
+
+--------- Error: ---------
+
+09:59:33.37 Monday, June 26, 2017
+
+WARNING! ZEROED HWID AT CLIENT 0. Dropping client...
+
+--------- Error: ---------
+
+10:02:27.36 Monday, June 26, 2017
+
+Failed to check version: Thread was being aborted  at (wrapper managed-to-native) System.Net.Sockets.Socket:Receive_internal (intptr,byte[],int,int,System.Net.Sockets.SocketFlags,int&)
+  at System.Net.Sockets.Socket.Receive_nochecks (System.Byte[] buf, Int32 offset, Int32 size, SocketFlags flags, System.Net.Sockets.SocketError& error) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.柜蘡洞�궇속师 (System.String 娇殡툝䘱䑸䨠貁, Int32 㯥╈ₘ�ꟊ✞嗫, System.String ᕄ쭛ၤ汒디⸍忲ﯺ, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.蕯ⵃ읡蚣닏დ䂤 (System.String ퟡꃎ㨌苦괞ᡠ睋鸫, Int32 蕸峺ඇ䑋ᚲ鐪ꚋ鯢, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.GetLatestSATmVersion () [0x00000] in <filename unknown>:0 
+
+--------- Error: ---------
+
+10:03:53.86 Monday, June 26, 2017
+
+WARNING! ZEROED HWID AT CLIENT 0. Dropping client...
+
+--------- Error: ---------
+
+10:04:11.85 Monday, June 26, 2017
+
+WARNING! ZEROED HWID AT CLIENT 0. Dropping client...
+
+--------- Error: ---------
+
+10:06:19.13 Monday, June 26, 2017
+
+Failed to check version: Thread was being aborted  at (wrapper managed-to-native) System.Net.Sockets.Socket:Receive_internal (intptr,byte[],int,int,System.Net.Sockets.SocketFlags,int&)
+  at System.Net.Sockets.Socket.Receive_nochecks (System.Byte[] buf, Int32 offset, Int32 size, SocketFlags flags, System.Net.Sockets.SocketError& error) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.柜蘡洞�궇속师 (System.String 娇殡툝䘱䑸䨠貁, Int32 㯥╈ₘ�ꟊ✞嗫, System.String ᕄ쭛ၤ汒디⸍忲ﯺ, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.蕯ⵃ읡蚣닏დ䂤 (System.String ퟡꃎ㨌苦괞ᡠ睋鸫, Int32 蕸峺ඇ䑋ᚲ鐪ꚋ鯢, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.GetLatestSATmVersion () [0x00000] in <filename unknown>:0 
+
+--------- Error: ---------
+
+10:07:10.60 Monday, June 26, 2017
+
+Failed to check version: Thread was being aborted  at (wrapper managed-to-native) System.Net.Sockets.Socket:Receive_internal (intptr,byte[],int,int,System.Net.Sockets.SocketFlags,int&)
+  at System.Net.Sockets.Socket.Receive_nochecks (System.Byte[] buf, Int32 offset, Int32 size, SocketFlags flags, System.Net.Sockets.SocketError& error) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.柜蘡洞�궇속师 (System.String 娇殡툝䘱䑸䨠貁, Int32 㯥╈ₘ�ꟊ✞嗫, System.String ᕄ쭛ၤ汒디⸍忲ﯺ, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.蕯ⵃ읡蚣닏დ䂤 (System.String ퟡꃎ㨌苦괞ᡠ睋鸫, Int32 蕸峺ඇ䑋ᚲ鐪ꚋ鯢, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.GetLatestSATmVersion () [0x00000] in <filename unknown>:0 
+
+--------- Error: ---------
+
+08:18:33.76 Monday, July 10, 2017
+
+Failed to check version: Thread was being aborted  at (wrapper managed-to-native) System.Net.Sockets.Socket:Receive_internal (intptr,byte[],int,int,System.Net.Sockets.SocketFlags,int&)
+  at System.Net.Sockets.Socket.Receive_nochecks (System.Byte[] buf, Int32 offset, Int32 size, SocketFlags flags, System.Net.Sockets.SocketError& error) [0x00000] in <filename unknown>:0 
+  at System.Net.Sockets.Socket.Receive (System.Byte[] buffer, Int32 size, SocketFlags flags) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.柜蘡洞�궇속师 (System.String 娇殡툝䘱䑸䨠貁, Int32 㯥╈ₘ�ꟊ✞嗫, System.String ᕄ쭛ၤ汒디⸍忲ﯺ, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.蕯ⵃ읡蚣닏დ䂤 (System.String ퟡꃎ㨌苦괞ᡠ睋鸫, Int32 蕸峺ඇ䑋ᚲ鐪ꚋ鯢, Int32 褐ԟ觵抁夿ꃽ) [0x00000] in <filename unknown>:0 
+  at SATm.SATm.GetLatestSATmVersion () [0x00000] in <filename unknown>:0 
+
+--------- Error: ---------
+
+09:16:43.95 Monday, July 10, 2017
+
+WARNING! ZEROED HWID AT CLIENT 3. Dropping client...
+

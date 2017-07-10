@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<messages>
+	<!-- *Some* messages used by SATm. You may modify them as you like. -->
+	
+	<message code="bankick-permanent">You are permanently banned from this server ([admin]).^7 Reason: ^1[reason]. ^7Time: ^2 [time_issued]. ^7Ban ID: ^3[banid]. ^7Ban appeal at ^3[website]</message>		<!-- Permanently banned players will be kicked with this message. -->
+	<message code="bankick-temp">You are temporarily banned from this server [admin].^7 Time left: ^3[time_left].^7 Reason: ^1[reason]. ^7Time: ^2 [time_issued]. ^7Ban ID: ^3[banid]. ^7Ban appeal at ^3[website]</message>		<!-- Temporarily banned players will be kicked with this message. -->
+	
+	<message code="private-welcome-msg">Welcome back, ^2[name]. ^7You've played ^3[times_played] time(s) ^7in our servers, and a total of ^3[total_time]</message>		<!-- Message displayed (upon connection) to all returning players. -->
+	<message code="private-welcome-msg-new">Welcome to ^3our servers, ^2[name]</message>																					<!-- Message displayed (upon connection) to all new players. -->
+	<message code="public-welcome-msg-new">Everyone welcome new player ^3[name] ^5([country])^7 to the server.</message>													<!-- The welcome message shown to everyone when a new player connectes -->
+	
+	<message code="insufficient-privileges">Insufficent privileges</message>			<!-- Displayed when access to a . -->
+	<message code="no-such-command">No such command</message>	<!-- Displayed when an unrecognized command is issued. -->
+	
+	<message code="kick-without-reason">You have been kicked from this server.</message>			<!-- Displayed to players who were kicked, when there was no reason provided. -->
+	<message code="kick-with-reason">You have been kicked from this server. Reason: ^3[reason].</message>	<!-- Displayed to players who were kicked, when there was a reason provided. -->
+	
+	<message code="ban-without-reason-time">You have been temporarily banned from this server for^3 [duration] ^7by admin ^2[admin]. ^7BanID: ^3[banid]. ^7Ban appeal at ^3[website]</message> 	<!-- Displayed to players kicked without reason and ban time -->
+	<message code="ban-with-reason-time">You have been temporarily banned from this server for ^3[duration] ^7by admin ^2[admin]. Reason: ^1[reason]. ^7BanID: ^3[banid] ^7Ban appeal at ^3[website]</message>		<!-- Displayed to players tempbanned with reason and ban time -->
+	
+	<message code="permban-without-reason">You have been permanently banned from this server ^7by admin ^2[admin]. ^7BanID: ^3[banid]. ^7Ban appeal at ^3[website]</message>		<!-- Displayed to players permbanned without reason -->
+	<message code="permban-with-reason">You have been permanently banned from this server ^7by admin ^2[admin]. ^7Reason: ^1[reason]. ^7BanID: ^3[banid] ^7Ban appeal at ^3[website]</message>		<!-- Displayed to players permbanned with reason -->
+	
+	<message code="warn-ban-kick">You have been temporarily banned from this server for ^3[duration]. ^7 Reason: ^3too many warnings. ^7 Last warning: ^1[last_warning]. ^7Ban ID: ^3[banid]. ^7Ban appeal at ^3[website].</message>		<!-- Displayed to players kicked when they get banned for too many warnings -->
+	<message code="warn-kick">You have been kicked from this server. ^7 Reason: ^3too many warnings. ^7 Last warning: ^1[last_warning].</message>		<!-- Displayed to players kicked for too many warnins (if you set warn_bantime to 0 -->
+	
+	<message code="votekick-ban-msg">The other players chose to ^3kick ^7you from this server. [reason] Additionally, you have been ^1temporarily banned ^7from for ^3[duration]. ^7Ban ID: ^3[banid] ^7Ban appeal at ^3[website]</message>   <!-- Displayed to players who get kicked & banned after a votekick -->
+	<message code="votekick-kick-msg">The other players chose to ^3kick ^7you from this server. [reason]</message>   <!-- Displayed to players who get only kicked after a votekick (if you set votekick_bantime to 0 -->
+</messages>

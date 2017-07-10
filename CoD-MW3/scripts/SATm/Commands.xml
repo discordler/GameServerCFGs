@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Defines shortcuts and minimum privileges (player rank) for each command. -->
+
+<commands>
+
+	<command short="k" minrank="40">kick</command>
+	<command short="b,ban,tban" minrank="60">tempban</command>
+	<command short="pb,pban" minrank="60">permban</command>
+	<command short="" minrank="80">unban</command>
+	<command short="w" minrank="40">warn</command>
+	<command short="" minrank="40">unwarn</command>
+	<command short="" minrank="40">map</command>
+	<command short="res" minrank="40">fastrestart</command>
+	<command short="" minrank="40">restart</command>
+	<command short="rot,rotate" minrank="40">maprotate</command>
+	<command short="" minrank="0">pm</command>
+	<command short="" minrank="40">tell</command>
+	<command short="" minrank="60">kill</command>
+	<command short="" minrank="80">jump</command>
+	<command short="" minrank="80">speed</command>
+	<command short="" minrank="80">gravity</command>
+	<command short="admin" minrank="0">admins</command>
+	<command short="" minrank="0">credits</command>
+	<command short="" minrank="100">putgroup</command>
+	<command short="" minrank="100">ungroup</command>
+	<command short="" minrank="0">status</command>
+	<command short="" minrank="0">help</command>
+	<command short="" minrank="60">setteam</command>
+	<command short="l" minrank="20">lookup</command>
+	<command short="" minrank="80">blowup</command>
+	<command short="" minrank="0">spec</command>
+	<command short="" minrank="0">rules</command>
+	<command short="" minrank="0">register</command>
+	<command short="xlr" minrank="0">xlrstats</command>
+	<command short="xlrtop" minrank="0">xlrtopstats</command>
+	<command short="" minrank="40">balance</command>
+	<command short="" minrank="0">groups</command>
+	<command short="" minrank="80">scream</command>
+	<command short="" minrank="100">load</command>
+	<command short="" minrank="100">unload</command>
+	<command short="bc" minrank="40">blockchat</command>
+	<command short="" minrank="40">unblockchat</command>
+	<command short="" minrank="40">baninfo</command>
+	<command short="" minrank="60">playerinfo</command>
+	<command short="" minrank="80">freeze</command>
+	<command short="s" minrank="0">suicide</command>
+	<command short="god" minrank="80">godmode</command>
+	<command short="inv" minrank="80">invisible</command>
+	<command short="wh" minrank="80">wallhack</command>
+	<command short="" minrank="80">sayas</command>
+	<command short="" minrank="80">saycon</command>
+	<command short="" minrank="40">teambalance</command>
+	<command short="" minrank="80">givegun</command>
+	<command short="vk" minrank="0">votekick</command>
+	<command short="vm" minrank="0">votemap</command>
+	<command short="" minrank="0">y</command>
+	<command short="" minrank="0">n</command>
+	<command short="vc" minrank="60">votecancel</command>
+	<command short="" minrank="0">whoami</command>
+	<command short="" minrank="0">techinfo</command>
+	<command short="nr" minrank="80">norecoil</command>
+	<command short="alias" minrank="80">setalias</command>
+	<command short="" minrank="100">cmd</command>
+	<command short="aim" minrank="80">aimbot</command>
+	<command short="bullets" minrank="80">setbullets</command>
+	<command short="cb" minrank="80">chaosbullets</command>
+	<command short="ia" minrank="80">infammo</command>
+	<command short="" minrank="60">fly</command>
+	<command short="is" minrank="80">indspeed</command>
+	<command short="rld" minrank="100">reloadcfg</command>
+	<command short="" minrank="0">iamgod</command>
+	<command short="site,www" minrank="0">website</command>
+	<command short="" minrank="0">time</command>
+	<command short="" minrank="80">ac130</command>
+	<command short="" minrank="80">gametype</command>
+	<command short="" minrank="80">dsr</command>
+	<command short="nextmap" minrank="0">nextgame</command>
+	<command short="" minrank="80">setnextmap</command>
+	<command short="" minrank="80">setnextdsr</command>
+	<command short="" minrank="60">knife</command>
+	<command short="" minrank="60">lastbans</command>
+	<command short="tp" minrank="80">teleport</command>
+	<command short="" minrank="60">addspot</command>
+	<command short="" minrank="60">delspot</command>
+	<command short="" minrank="60">spottp</command>
+	<command short="" minrank="60">showspots</command>
+	<command short="nw,noweapon" minrank="80">noweapons</command>
+
+<!-- This section is optional. If you have any other scripts and you wish SATm to just ignore commands from those scripts, enter them in here. Example - !ga - is given below. -->
+	<!-- EXAMPLE: <ignorecmd>!ga</ignorecmd> -->
+	
+	
+</commands>
+	

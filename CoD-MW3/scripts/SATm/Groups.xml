@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- Change this if you want to customize the groups system. Parameters explanation:
+ - codes are what will be used with !putgroup
+ - rank is the numerical "rank" for the group
+ - message defines the public welcome message displayed when a player connects.
+ - password - if set, all members of this group will have to !login with this password before they can use any s
+-->
+
+<groups>
+	<group codes="own,owner" rank="100" prefix="^3" message="^1Owner ^3[name]^7 has joined the server. ^5([country])" password="">Owner</group>
+	<group codes="sadm,sadmin" rank="80" prefix="^6" message="^2SeniorAdmin ^3[name]^7 has joined the server." password="">Senior admin</group>
+	<group codes="admin,adm" rank="60" prefix="^2" message="^2Admin ^3[name]^7 has joined the server." password="">Admin</group>
+	<group codes="mod,moderator" rank="40" prefix="^5" message="^2Moderator ^3[name]^7 has joined the server." password="">Moderator</group>
+	<group codes="mem,member" rank="20" prefix="" message="Everyone welcome ^2Clan Member ^3[name] ^5([country])^7 to the server, played [times_played] times." password="">Clan Member</group>
+	
+	<!-- The group "guest" is hardcoded, you can't change its rank. If you do, SATm will override your settings. You can, however, change its welcome message, name, codes or prefix -->
+	<group codes="guest" rank="0" prefix="" message="Everyone welcome back ^3[name] ^5([country])^7 to the server, played [times_played] times." password="">Guest</group>
+
+	<!-- To change the private welcome message or the messages for completely new players (those who never played before) check the Lang file. -->
+</groups>
